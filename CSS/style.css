@@ -1,0 +1,182 @@
+/*Navigation Bar*/
+#navbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #fc6c05;
+    width: 1300px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*Navigation Bar Words/Links*/
+#navbarlist {
+    float: right;
+}
+#navbarlist a {
+    display: block;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+#navbarlist a:hover {
+    background-color: #fc9b55;
+    color: black;    
+}
+a {
+	font-size: 25px;
+}
+
+/*logo*/
+#logo {
+    width: 445px;
+    height: 55px;
+}
+
+#town {
+    padding-top: 42px;
+    width: 890px;
+    height: 410px;
+}
+
+/*General table*/
+table, th, td{
+    border: solid;
+    border-collapse: collapse;
+}
+
+tbody {
+    font-size: 18px;
+}
+
+/*Quotation on homepage*/
+#special {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 40px;
+}
+
+/*About page*/
+#about {
+    border-bottom-color: #042963;
+    border-bottom-width: 5px;
+    border-top-color: white;
+    border-right-color: white;
+    border-left-color: white;
+}
+
+/*My Profile page table*/
+#profileTable {
+    margin-top: 75px;
+}
+#profileTable th {
+	color: white;
+	border-color: #ff492d;
+	border-width: 4px;
+	background-color: #ff8775;
+}
+
+#profileTable td {
+	border-color: #ff492d;
+	border-width: 4px;
+	color: #ff573d;
+}
+
+#profileNote {
+    color: black;
+    font-size: 25px;
+}
+/*Explore page tables*/
+#courseCodeTable {
+    border-width: 5px;
+    border-color: #042963;
+}
+
+#period {
+    color: #042963;
+}
+
+#periodbg {
+    background-color: #c4dbff;
+    border-color: #042963;
+    border-width: 5px;
+}
+
+#courseCodeTable h3{
+    color: white;
+ }
+
+#courseCodebg {
+    background-color: #042963;
+}
+
+#courses {
+    border: none;
+    font-weight: bold;
+}
+
+/*Offerings grid layout on matches page*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 382px 382px 382px;
+    grid-column-gap: 0px;
+    grid-row-gap: 60px;
+    justify-content: space-evenly;
+}
+
+.grid-item {
+    background-color: #81d1ce;
+    color: white;
+    border: 3px solid;
+    border-color: #81d1ce;
+    padding: 22px;
+    font-size: 23px;
+    text-align: center;
+}
+
+/*Table on matches page*/
+#matchesTable {
+    margin-bottom: 60px;
+}
+
+#matchesTable th {
+    color:white;
+    background-color: #6bd6d2;
+    border-width: 3px;
+    border-color: #01a8a2;
+
+}
+
+#matchesTable td {
+    border-width: 3px;
+    border-color: #01a8a2;
+}
+
+/*Description for no match*/
+#nomatch {
+    font-size: 50px;
+}
+
+/*Orange image for no match*/
+#sadOrange {
+    height: 260px;
+    width: 260px;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+#cool {
+    color: #fc6c05;
+    font-family: "Palatino Linotype";
+    font-size: 50px;
+}
+
+#cool2 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+#cool3 {
+    color: #042963;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
